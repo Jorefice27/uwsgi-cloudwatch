@@ -10,7 +10,7 @@ setup(
     author_email="jstewart@wdtinc.com",
     description="uwsgi-cloudwatch",
     url="https://github.com/wdtinc/uwsgi-cloudwatch",
-    install_requires=["click==6.6", "requests~=2.25", "boto3==1.16", "arrow==0.8"],
+    install_requires=["click==6.6", "requests~=2.25", "boto3~=1.16", "arrow==0.8"],
     zip_safe=False,
     classifiers=(
         "Development Status :: 3 - Alpha",
